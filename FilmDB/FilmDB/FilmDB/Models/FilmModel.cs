@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FilmDB.Models
 {
-    public class FilmDB
+    public class FilmModel
     {
         public int ID { get; set; }
         //[ID] [int] IDENTITY(1,1) NOT NULL;

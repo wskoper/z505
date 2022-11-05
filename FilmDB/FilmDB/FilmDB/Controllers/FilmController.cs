@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FilmDB.Controllers
 {
-    public class HomeController1 : Controller
+    public class FilmController : Controller
     {
         public IActionResult Index()
         {
