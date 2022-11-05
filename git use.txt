@@ -1,0 +1,265 @@
+C:\Users\w_koper\Documents\github>ming https://github.com/wskoper/z505.git
+'ming' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 8C53-E967
+
+ Directory of C:\Users\w_koper\Documents\github
+
+05.11.2022  15:48    <DIR>          .
+05.11.2022  15:48    <DIR>          ..
+05.11.2022  15:53    <DIR>          z505
+               0 File(s)              0 bytes
+               3 Dir(s)  834 498 666 496 bytes free
+
+C:\Users\w_koper\Documents\github>cd z505
+
+C:\Users\w_koper\Documents\github\z505>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 8C53-E967
+
+ Directory of C:\Users\w_koper\Documents\github\z505
+
+05.11.2022  15:53    <DIR>          .
+05.11.2022  15:53    <DIR>          ..
+05.11.2022  15:54    <DIR>          FilmDB
+               0 File(s)              0 bytes
+               3 Dir(s)  834 498 666 496 bytes free
+
+C:\Users\w_koper\Documents\github\z505>cd FilmDB
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 8C53-E967
+
+ Directory of C:\Users\w_koper\Documents\github\z505\FilmDB
+
+05.11.2022  15:54    <DIR>          .
+05.11.2022  15:54    <DIR>          ..
+05.11.2022  15:54    <DIR>          FilmDB
+               0 File(s)              0 bytes
+               3 Dir(s)  834 498 600 960 bytes free
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>\
+'\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>
+C:\Users\w_koper\Documents\github\z505\FilmDB>..
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>..
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>..
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\github\z505\FilmDB>cd..
+
+C:\Users\w_koper\Documents\github\z505>cd..
+
+C:\Users\w_koper\Documents\github> cd ..
+
+C:\Users\w_koper\Documents>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 8C53-E967
+
+ Directory of C:\Users\w_koper\Documents
+
+05.11.2022  15:40    <DIR>          .
+05.11.2022  15:40    <DIR>          ..
+05.11.2022  15:48    <DIR>          github
+05.11.2022  14:02    <DIR>          LabVIEW Data
+15.05.2022  08:37    <DIR>          SQL Server Management Studio
+15.05.2022  08:42    <DIR>          Visual Studio 2017
+05.11.2022  15:08    <DIR>          Visual Studio 2019
+               0 File(s)              0 bytes
+               7 Dir(s)  834 497 314 816 bytes free
+
+C:\Users\w_koper\Documents>git clone https://github.com/wskoper/z505.git
+Cloning into 'z505'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+C:\Users\w_koper\Documents>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\w_koper\Documents>cd z505
+
+C:\Users\w_koper\Documents\z505>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        FilmDB/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\w_koper\Documents\z505>git add .
+warning: LF will be replaced by CRLF in FilmDB/FilmDB/FilmDB/appsettings.Development.json.
+The file will have its original line endings in your working directory
+
+C:\Users\w_koper\Documents\z505>git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Users\w_koper\Documents\z505>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   FilmDB/FilmDB/FilmDB.sln
+        new file:   FilmDB/FilmDB/FilmDB/Controllers/HomeController.cs
+        new file:   FilmDB/FilmDB/FilmDB/FilmDB.csproj
+        new file:   FilmDB/FilmDB/FilmDB/Models/ErrorViewModel.cs
+        new file:   FilmDB/FilmDB/FilmDB/Program.cs
+        new file:   FilmDB/FilmDB/FilmDB/Properties/launchSettings.json
+        new file:   FilmDB/FilmDB/FilmDB/Startup.cs
+        new file:   FilmDB/FilmDB/FilmDB/Views/Home/Index.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/Home/Privacy.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/Shared/Error.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/Shared/_Layout.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/Shared/_ValidationScriptsPartial.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/_ViewImports.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/Views/_ViewStart.cshtml
+        new file:   FilmDB/FilmDB/FilmDB/appsettings.Development.json
+        new file:   FilmDB/FilmDB/FilmDB/appsettings.json
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/css/site.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/favicon.ico
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/js/site.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/LICENSE
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/LICENSE.md
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/additional-methods.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/LICENSE.txt
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.min.js
+        new file:   FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.min.map
+
+
+C:\Users\w_koper\Documents\z505>git commit -m "init repo"
+[main 849aeee] init repo
+ Committer: Wojciech Koper <w_koper@ms.wwsi.edu.pl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 52 files changed, 40145 insertions(+)
+ create mode 100644 FilmDB/FilmDB/FilmDB.sln
+ create mode 100644 FilmDB/FilmDB/FilmDB/Controllers/HomeController.cs
+ create mode 100644 FilmDB/FilmDB/FilmDB/FilmDB.csproj
+ create mode 100644 FilmDB/FilmDB/FilmDB/Models/ErrorViewModel.cs
+ create mode 100644 FilmDB/FilmDB/FilmDB/Program.cs
+ create mode 100644 FilmDB/FilmDB/FilmDB/Properties/launchSettings.json
+ create mode 100644 FilmDB/FilmDB/FilmDB/Startup.cs
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/Home/Index.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/Home/Privacy.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/Shared/Error.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/Shared/_Layout.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/Shared/_ValidationScriptsPartial.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/_ViewImports.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/Views/_ViewStart.cshtml
+ create mode 100644 FilmDB/FilmDB/FilmDB/appsettings.Development.json
+ create mode 100644 FilmDB/FilmDB/FilmDB/appsettings.json
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/css/site.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/favicon.ico
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/js/site.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/LICENSE
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/LICENSE.md
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/additional-methods.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/LICENSE.txt
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.min.js
+ create mode 100644 FilmDB/FilmDB/FilmDB/wwwroot/lib/jquery/dist/jquery.min.map
+
+C:\Users\w_koper\Documents\z505>git push
+info: please complete authentication in your browser...
+Enumerating objects: 77, done.
+Counting objects: 100% (77/77), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (69/69), done.
+Writing objects: 100% (76/76), 684.56 KiB | 6.17 MiB/s, done.
+Total 76 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/wskoper/z505.git
+   98f704a..849aeee  main -> main
+
+C:\Users\w_koper\Documents\z505>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\w_koper\Documents\z505>
